@@ -2,8 +2,8 @@ import { defineConfig } from 'cypress'
 
 export default defineConfig({
   defaultCommandTimeout: 10000,
-  viewportWidth: 1024,
-  viewportHeight: 768,
+  viewportWidth: 1920,
+  viewportHeight: 1080,
   e2e: {
     baseUrl: "https://demo.casino/",
     setupNodeEvents(on, config) {

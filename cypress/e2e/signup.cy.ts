@@ -8,7 +8,7 @@ describe("User Registration test", () => {
 
     it("Creates a user sucesfully using email", () => {
         let randomStr = (Math.random() + 1).toString(36).substring(7);
-        let randomEmail = `test${randomStr}@testerson.com`;
+        let randomEmail = `test${randomStr}@mailsac.com`;
         cy.task('setUserData' , randomEmail);
         cy.get('[data-test=input-email]').type(randomEmail);
         cy.contains('I unconditionally agree with').click();
@@ -22,7 +22,7 @@ describe("User Registration test", () => {
         cy.url().should('contain', '/cabinet/profile');
 
         /*
-        // TODO: Getting the confirmation code from Email body (when the feature is fixed)
+        // TODO: Getting the confirmation code from the email body (feature doesn't work)
         cy.request({
             method: "GET",
             url: "https://mailsac.com/api/addresses/xxxx@mailsac.com/messages",
