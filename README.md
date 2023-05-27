@@ -12,11 +12,11 @@ Have node and npm previously installed.
 2. Install cypress
     1. `cd /your/project/path`
     2. `npm install cypress --save-dev`
-3. Open Cypress
+3. `npm i`
+4. Open Cypress
     1. `npx cypress open`
-4. Choose **E2E Testing**
-5. Select your browser and Start E2E Testing
-6. Select the test you want to run.
+5. Choose **E2E Testing**
+6. Select your browser and Start E2E Testing
+7. Select the test you want to run.
 
-Example:
-https://github.com/esbarila/Paramo-Esteban-demo/assets/47305731/5a35ccdd-8aef-4403-80e9-510bab3cf847
+[Example:](https://github-production-user-asset-6210df.s3.amazonaws.com/47305731/241405332-5a35ccdd-8aef-4403-80e9-510bab3cf847.mp4)
