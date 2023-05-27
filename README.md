@@ -19,4 +19,4 @@ Have node and npm previously installed.
 6. Select your browser and Start E2E Testing
 7. Select the test you want to run.
 
-[Example:](https://github-production-user-asset-6210df.s3.amazonaws.com/47305731/241405332-5a35ccdd-8aef-4403-80e9-510bab3cf847.mp4)
+https://github-production-user-asset-6210df.s3.amazonaws.com/47305731/241405332-5a35ccdd-8aef-4403-80e9-510bab3cf847.mp4
