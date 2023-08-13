@@ -9,10 +9,7 @@ Have node and npm previously installed.
 
 1. Clone this repository
     `git clone https://github.com/esbarila/Paramo-Esteban-demo`
-2. Install cypress
-    1. `cd /your/project/path`
-    2. `npm install cypress --save-dev`
-3. `npm i`
+2. `npm i`
 4. Open Cypress
     1. `npx cypress open`
 5. Choose **E2E Testing**
